@@ -1,4 +1,4 @@
-# login-registration-handler-router
+# login-handler-router
 
 This example provides a basic router solution for overriding the Okta landing page.  It uses OIDC and Okta groups to determine a landing page when a redirect is not provided to a custom login solution.
 

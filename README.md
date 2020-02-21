@@ -2,7 +2,13 @@
 
 This example provides a basic router solution for overriding the Okta landing page.  It uses OIDC and Okta groups to determine a landing page when a user goes directly to Okta's landing page.
 
-## Getting Started
+Steps to configure:
+1. Request Federation Broker mode feature flag
+2. Create OIDC application in Okta
+3. Modify index.js to provide your application and tenant configurations 
+4. Deploy to webserver.
+
+## Building and deployment
 
 To begin, you'll need to install `node.js` version >10:
 

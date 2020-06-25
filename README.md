@@ -7,6 +7,7 @@ Steps to configure:
 2. Create OIDC application in Okta
 3. Modify index.js to provide your application and tenant configurations 
 4. Deploy to webserver.
+5. Configure "Default App for Sign-In Widget" in Okta admin customization to point to the deployed application.
 
 ## Building and deployment
 
